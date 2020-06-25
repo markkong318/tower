@@ -45,7 +45,6 @@ cc.Class({
         this.schedule(() => {
             if (this.node.y < - Canvas.height / 2) {
                 GameEvent.emit(GameEventType.BRICK_RING_OUT);
-                console.log('ring out');
             }
         }, 1);
 

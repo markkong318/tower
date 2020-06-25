@@ -14,6 +14,8 @@ cc.Class({
 
         GameEvent.on(GameEventType.GAME_START, () => {
             this.count = 10;
+            this.label.string = `change-${this.count}`;
+
             this.node.on('click', this.handleClick, this);
         });
 

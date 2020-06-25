@@ -5,11 +5,6 @@ cc.Class({
 
     onLoad: function() {
         this.speed = 0.5;
-
-        console.log('canvas w: ' + Canvas.width);
-        console.log('node w: ' + this.node.width);
-
-
     },
 
     update: function() {
